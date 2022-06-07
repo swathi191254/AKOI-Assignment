@@ -32,9 +32,6 @@ export const Login = () => {
         .then((res) => setMatter(res.json()))
         .then((res) => dispatch(addTodo(res.data)));
     }
-
-    console.log(" +++ " +  matter);
-
     const handleChange = e => {
         setData({...data,[e.target.name]:e.target.value});
     }

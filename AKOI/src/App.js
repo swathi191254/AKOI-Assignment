@@ -11,6 +11,7 @@ function App() {
    <>
    {/* <Header /> */}
    <NavBar />
+   <ProductPage />
     <Routes>
     
         <Route path="/signup" element={<Signup />}></Route>
