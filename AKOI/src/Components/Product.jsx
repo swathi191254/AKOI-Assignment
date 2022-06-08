@@ -95,6 +95,7 @@ const ProductPage = () => {
 
       <Box py={4} display="flex" justifyContent="center">
         <Pagination
+        style={{"marginRight":"200px"}}
           count={10}
           color="secondary"
           variant="outlined"
