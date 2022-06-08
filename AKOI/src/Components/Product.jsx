@@ -48,20 +48,8 @@ const ProductPage = () => {
   };
 
   return (
-    <div>
+    <div style={{"marginLeft":"120px"}}>
       <div className="flex">
-        <div>
-          <Box
-            sx={{
-              display: "flex",
-
-              "& > *": {
-                m: 2,
-              },
-            }}
-          ></Box>
-        </div>
-
         <div className="container ">
           {data.map((a) => {
             return (
