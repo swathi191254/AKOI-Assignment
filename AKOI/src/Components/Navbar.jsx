@@ -23,12 +23,8 @@ const NavBar = () => {
   function handleClick() {
     navigate("/");
   }
-  function handleClickCart() {
-    navigate("/products");
-  }
-  function handleClicklogin() {
-    navigate("/cart");
-  }
+
+
   function handleClickLogin() {
     navigate("/login");
   }
@@ -86,7 +82,7 @@ const NavBar = () => {
     menu = (
       <div className="fixed bg-white top-0 right-0 w-1/3 h-full z-50 shadow  div3">
         <div>
-          <div className="border bg-black p-8 w-full h-1/5 flex justify-between text-2xl text-white">
+          <div className="border bg-green-500 p-8 w-full h-1/5 flex justify-between text-2xl text-white">
             <div>My Cart</div>
 
             <div>
@@ -117,7 +113,7 @@ const NavBar = () => {
                       <div>Quantity</div>
                       <div>
                         <button
-                          className="bg-black text-white p-1 rounded-xl mt-3 "
+                          className="bg-green-500 text-white p-1 rounded-xl mt-3 "
                           onClick={() => remove(item.id)}
                         >
                           Remove
@@ -131,7 +127,7 @@ const NavBar = () => {
             })}
           </div>
         </div>
-        <div className="border bg-blue-500 w-full h-16 fixed bottom-0 flex ">
+        <div className="border bg-green-500 w-full h-16 fixed bottom-0 flex ">
           <div className=" p-4   text-2xl rounded-xl text-white"></div>
 
           <div
